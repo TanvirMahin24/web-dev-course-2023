@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(140, 132, 248);
+}
+
+.list_wrapper {
+  margin: 50px;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+}
+
+.list_wrapper ul {
+  list-style: none;
+}
+
+.list_wrapper ul li {
+  border-bottom: 2px solid #7e0000;
+}
+
+.list_wrapper ul li:hover {
+  background: #7e0000;
+  color: white;
+  cursor: pointer;
+}
+
+.bg_white {
+  background: white;
+}
+
+.btn_wrapper {
+  padding: 20px;
+  margin: 50px;
+}
+.btn {
+  background: blue;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 6px;
+  transition: 0.5s ease-in-out all;
+}
+
+.btn:hover {
+  background: lightseagreen;
+  cursor: pointer;
+  color: #7e0000;
+  transition: 0.5s ease-in-out all;
+}
+
+.form {
+  background: gray;
+  margin: 50px;
+  padding: 20px;
+}
+
+.form input {
+  padding: 10px 20px;
+}
+
+.form input:focus {
+  border-color: transparent;
+  outline: none;
+  background: lightcoral;
+}
+
+.card {
+  width: 30vw;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
