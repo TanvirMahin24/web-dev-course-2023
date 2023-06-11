@@ -1,0 +1,7 @@
+.custom_container {
+  max-width: 1400px !important;
+}
+
+.custom_container h1 {
+  border-radius: 20px !important;
+}
